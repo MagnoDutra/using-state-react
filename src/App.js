@@ -10,7 +10,7 @@ export default function App() {
   const [step, setStep] = useState(1);
 
   function handlePrevious() {
-    setStep(Math.max(step - 1, 0));
+    setStep(Math.max(step - 1, 1));
   }
 
   function handleNext() {
